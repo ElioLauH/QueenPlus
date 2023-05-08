@@ -1,0 +1,309 @@
+
+
+body {
+    
+  background: linear-gradient(to right, #493240, #8a0756); 
+  
+}
+
+ /* NAVBAR */
+
+.navbar .navbar-brand img {
+    max-width: 150px;
+    
+}
+
+@media screen and (min-width: 768px) {
+   .navbar {
+    letter-spacing: .1em;
+  } 
+  .navbar .navbar-nav .nav-link {
+    color: #b63181;
+    padding: .5em 1em;
+  }
+
+  .search-and-icons {
+    width: 50%;
+  }
+  .search-and-icons form {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar .navbar-brand img {
+    max-width: 8em;
+  }
+  
+  .navbar .navbar-collapse {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .search-and-icons {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.search-and-icons form input {
+  border-radius:0%;
+}
+
+.nav-input {
+  background: #fff ;
+  box-shadow: none;
+}
+
+.nav-input {
+  height: 2em;
+  background: #fff  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' class='bi bi-search'  viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E") no-repeat 95%;
+}
+
+.search-and-icons .user-icons div{
+padding-right: 1em;
+
+}
+
+.user-icons .i-con {
+  color: #b63181;
+}
+
+.contact-info p, .contact-info a {
+  font-size: .9em;
+  padding-right: 1em;
+}
+
+.contact-info a {
+  padding-right: 0;
+}
+
+/*login*/
+.bgi{
+  background-image: url(../assets/images/bg.jpg);
+  background-position: center center;
+  
+ 
+ 
+}
+/*fin login*/
+
+/* FIN NAV */
+
+
+/* MAIN */
+
+/* COLUMN */
+
+
+
+.option {
+  margin: 20% 5% 5% 5%;
+  width: 90%;
+}
+
+
+.imagen {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: black;
+}
+
+ul {
+  color: #fff;
+  
+}
+
+.lista1 {
+  display: grid;
+  justify-content: space-around;
+  margin: 2% 2%;
+}
+
+.lista2 {
+  display: grid;
+  justify-content: space-around;
+  margin: 2% 2% ;
+}
+
+/* FIN COLUMN */
+
+
+main {
+  display: flex;
+  width: 100%;
+  
+}
+
+.carousel-inner .carousel-item img{
+    width: 700px;
+    height: 500px;
+}
+
+.contenido {
+    width: 73%;
+    height: 30%;
+    margin: 2% 1%;
+    color: #fff;
+    display: grid;
+}
+
+.carrusel {
+   width: 80%;
+}
+
+#descripcion {
+  background-color: black;
+  width: 25%;
+  
+}
+#Interés {
+   display: inline-flex;
+   justify-content: space-between;
+}
+
+.carousel-indicators {
+   display: grid; 
+   justify-content: start;
+}
+
+@media screen and (min-width: 1250px) {
+
+  .atajo-promo {
+    display: none;
+ }
+ 
+
+}
+
+@media screen and (max-width: 1250px) {
+  main {
+      display: grid;
+  }
+  .op {
+    display: none;
+  }
+  .anuncio {
+    display: none;
+  }
+   
+  .contenido {
+     width: 100% ;
+  }
+
+  .card {
+    width: 18rem;
+  }
+  .carrousel-promo {
+     width: 97%;
+     display: grid;
+  }
+  .carrusel {
+    width: 100%;
+  }
+  .detail-carrousel {
+     display: none;
+  }
+  .atajo-promo {
+     display: flex;
+     justify-content: space-evenly;
+  }
+  .img-cat {
+     display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+   
+   .block-cat {
+     display: none;
+   }
+}
+
+
+
+
+
+/* categorias */
+
+#mas-vendidos {
+  display: grid ;
+  width: 90%;
+  height: 80%;
+  margin: 2% 2%;
+}
+
+.mas-vendidos {
+   display: flex;
+   justify-content: space-around;
+}
+
+.img-categ {
+    width: 100%;
+    height: 90%;
+}
+
+
+
+/* FIN MAIN */
+
+
+/* FOOTER */
+
+.footer {
+  color: #fff;
+  padding: 20px 0;
+  height: 6%;
+}
+
+.columna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.columna-logo img {
+  max-width: 50px;
+}
+
+.redes-sociales li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociales li:last-child {
+  margin-right: 0;
+}
+
+.redes-sociales a i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.columna-frase p {
+  text-align: center; 
+  color: #fff;
+
+}
+
+@media only screen and (max-width: 767px) {
+  .columna {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .columna {
+    width: calc(100% / 3);
+  }
+}
+
+/* FIN FOOTER */
+
